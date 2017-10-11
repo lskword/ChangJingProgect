@@ -1,0 +1,174 @@
+.context5{
+	width: 100%;
+	height: 100%;
+	background-color: #dcff6d;
+}
+.context5 img{
+	position: relative;
+	width: 262px;
+	height: 56px;
+	left: 50px;
+	top: 30px;
+	transform: rotateZ(0deg);
+	opacity: 1;
+	display: block;
+}
+.context5 h6{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.context5 span{
+	z-index: 20;
+	position: relative;
+	display: block;
+	width: 70px;
+	height: 54px;
+	line-height: 54px;
+	text-align: center;
+	font-size: 36px;
+	color: black;
+	font-weight: 500;	
+}
+.context5 .span1{
+	position: relative;
+	width: 70px;
+	left: 70px;
+	top: -33px;
+	transform: rotate(-20deg);
+}
+.context5 .span2{
+	position: relative;
+	width: 70px;
+	left: 116px;
+	top: -88px;
+	transform: rotate(-8deg);
+}
+.context5 .span3{
+	position: relative;
+	width: 70px;
+	left: 165px;
+	top: -142px;
+	transform: rotate(2deg);
+}
+.context5 .span4{
+	position: relative;
+	width: 70px;
+	left: 210px;
+	top: -196px;
+	transform: rotate(9deg);
+}
+.context5 .span5{
+	position: relative;
+	width: 70px;
+	left: 270px;
+	top: -260px;
+}
+.context5 span img{
+	position: relative;
+	width: 10px;
+	left: 0px;
+	height: 54px;
+	top: 0px;
+	transform: rotate(3deg);
+	animation: rubberBand 1s ease 6s infinite;
+}
+.context5 .span6{
+	position: relative;
+	width: 100%;
+	height: 30px;
+	top: -190px;
+	left: 35%;
+	font-size: 24px;
+	color: rgb(255,0,122);
+	font-weight: normal;
+}
+.context5 .span7{
+	position: relative;
+	width: 100%;
+	height: 30px;
+	top: -160px;
+	left: 10%;
+	font-size: 24px;
+	color: rgb(0,0,0);
+	font-weight: normal;
+}
+.context5 .span8{
+	position: relative;
+	width: 100%;
+	height: 30px;
+	top: -180px;
+	left: 60%;
+	font-size: 26px;
+	color: rgb(219,44,252);
+	font-weight: normal;
+}
+.context5 .span9{
+	position: relative;
+	width: 100%;
+	height: 30px;
+	top: -160px;
+	left: 30%;
+	font-size: 38px;
+	color: rgb(55,44,66);
+	font-weight: normal;
+}
+.context5 .span10{
+	position: relative;
+	width: 100%;
+	height: 30px;
+	top: -120px;
+	left: 20%;
+	font-size: 18px;
+	color: rgb(200,44,100);
+	font-weight: normal;
+}
+.context5 .span11{
+	position: relative;
+	width: 100%;
+	height: 30px;
+	top: -130px;
+	left: 50%;
+	font-size: 24px;
+	color: rgb(10,70,100);
+	font-weight: normal;
+}
+.context5 .span12{
+	position: relative;
+	width: 100%;
+	height: 30px;
+	top: -100px;
+	left: 13%;
+	font-size: 28px;
+	color: rgb(80,130,60);
+	font-weight: normal;
+}
+.context5 .span13{
+	position: relative;
+	width: 100%;
+	height: 30px;
+	top: -90px;
+	left: 60%;
+	font-size: 30px;
+	color: rgb(180,30,160);
+	font-weight: normal;
+}
+.context5 .span14{
+	position: relative;
+	width: 100%;
+	height: 30px;
+	top: -60px;
+	left: 26%;
+	font-size: 26px;
+	color: rgb(140,160,20);
+	font-weight: normal;
+}
+.context5 .footer {
+  background-image: url(../images/o_1bq2484osc62f1tdra160e1n5l4k.gif);
+  width: 279px;
+  height: 120px;
+  margin-left: -140px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}

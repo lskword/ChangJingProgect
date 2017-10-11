@@ -10,5 +10,16 @@ var swiper = new Swiper('.swiper-container', {
   },
   onSlideChangeEnd: function(swiper){
     swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
-  }
+  },
+
+
+        slidesPerView: 1,
+
+        spaceBetween: 30
+});
+
+var map = new AMap.Map('container',{
+    resizeEnable: true,
+    zoom: 10,
+    center: [116.480983, 40.0958]
 });

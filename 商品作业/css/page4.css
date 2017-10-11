@@ -1,0 +1,105 @@
+#boxs>ul {
+  position: relative;
+}
+
+#boxs>ul>li {
+  position: absolute;
+  list-style: none;
+}
+
+#boxs>ul>li:nth-child(1) {
+  background: url(../images/FpPGZjJAxux3BX5vnKzBLZoI15ue.png);
+  width: 31px;
+  height: 13px;
+  left: 15%;
+  top: 60px;
+}
+
+#boxs>ul>li:nth-child(2) {
+  background: url(../images/FrD40Q0tEGWIIjYD8zsnUJCbLUh9.png);
+  width: 32px;
+  height: 30px;
+  left: 80%;
+  top: 60px;
+  }
+
+#boxs>ul>li:nth-child(3) {
+  background: url(../images/FrE9sxBpeQa1G9J70fsfNEXv9_N3.png);
+  width: 23px;
+  height: 17px;
+  left: 15%;
+  top: 300px;
+
+}
+
+#boxs>ul>li:nth-child(4) {
+  background: url(../images/FgQV_RKpzf7lj9TVuw68HTLGHuNB.png);
+  width: 39px;
+  height: 20px;
+  left: 80%;
+  top: 300px;
+  }
+#boxs>ul>li.photo-box{
+      width: 230px;
+      height: 210px;
+      /*background-color: red;*/
+      top: 83px;
+      left: 20%;
+      /*animation:zoomIn 1s ease 1.5s 1 normal both;
+      position: relative;*/
+}
+#boxs>ul>li.photo-box>div{
+  position: absolute;
+  top: 26px;
+  left: 10%;
+  transition: all 1.5s;
+}
+/*#boxs>ul>li.photo-box>div:nth-child(1){
+  width: 230px;
+  height: 210px;
+  /*background-color: red;*/
+  z-index: 4;
+  background: url(../images/o_1bq28ufl9a38jcf1kp31p3g1hrc1s.jpg);
+}*/
+/*#boxs>ul>li.photo-box>div:nth-child(2){
+  width: 230px;
+  height: 210px;
+  /*background-color: black;*/
+background:   url(../images/o_1bq28ufl9ugn17k5r3i18qa1sf51r.jpg);
+  z-index:3;
+}*/
+/*#boxs>ul>li.photo-box>div:nth-child(3){
+  width: 230px;
+  height: 210px;
+  /*background-color: blue;*/
+  z-index: 2;
+  background: url(../images/o_1bq28ufl960mu482bvoqostd1t.jpg);
+}*/
+/*#boxs>ul>li.photo-box>div:nth-child(4){
+  width: 230px;
+  height: 210px;
+  /*background-color: yellow;*/
+  z-index:1;
+  background: url(../images/o_1bqegs0ud1p9g1060183v1dkd4v2l.jpg);
+  background-size: 100%;
+}*/
+#boxs>ul>li.photo-box>div:nth-child(1){
+  /*animation: zoomIn 1.5s ease 1.5s 1 normal both;*/
+  position: absolute;
+  top: 30px;
+  left: 10%;
+}
+#boxs>ul>li.photo-box>div:nth-child(1)>p{
+  font-size: 38px;
+  color: black;
+  animation: tada 1s ease 7s infinite normal both;
+}
+#boxs>ul>li.photo-box>div:nth-child(1)>p:nth-child(2){
+  color: #fff;
+}
+#footer {
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  margin-left: -150px;
+}
