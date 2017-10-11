@@ -1,6 +1,6 @@
 var swiper = new Swiper('.swiper-container', {
   direction: 'vertical',
-  loop: false,
+  loop: true,
   pagination: '.swiper-pagination',
   paginationClickable: true,
   mousewheelControl: true,

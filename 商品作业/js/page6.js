@@ -1,7 +1,7 @@
-  var oApproach = document.querySelector('#approach');
-  setTimeout(function() {
-    oApproach.style.display = 'none';
-  }, 1000);
+  // var oApproach = document.querySelector('#approach');
+  // setInterval(function() {
+  //   oApproach.style.display = 'none';
+  // }, 1000);
   window.onload=function () {
     // console.log($('#boxs .top img'))
     setTimeout(function () {
