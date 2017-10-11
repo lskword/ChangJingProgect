@@ -23,3 +23,16 @@ var map = new AMap.Map('container',{
     zoom: 10,
     center: [116.480983, 40.0958]
 });
+(function() {
+  var index=0;
+  $('#music')[0].onclick=function () {
+    index=index===0?1:0;
+    if (index===1) {
+        $('audio')[0].pause();
+    }else{
+        $('audio')[0].play();
+    }
+
+  };
+
+}());
